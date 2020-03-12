@@ -158,6 +158,13 @@ body{
     color: #FFFFFF;
 }
 
+.footer-div{
+    background-color: #007FFF;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
 /*navbar*/
 .navbar{
     margin-bottom: 0px;
