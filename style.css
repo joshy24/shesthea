@@ -1,0 +1,215 @@
+
+html{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body{
+    margin-top: 50px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.red-text{
+    color: #F20000;
+}
+
+
+.blue-text{
+    color: #007FFF;
+}
+
+.white-text{
+    color: #FFFFFF;
+}
+
+
+.shesthea-no-padding{
+    padding: 0px;
+}
+
+
+
+.top-div-btn{
+    background: #F20000;
+    border: 0px solid #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.top-div-btn:hover{
+    background: #E98980;
+    color: #000000;
+    text-decoration: none;
+}
+
+.top-div{
+    background: url("./topbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 190px;
+    padding-bottom: 160px;
+    color: #FFFFFF;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+}
+
+.top-div h4{
+    color: #FFFFFF;
+    line-height: 2.0em;
+}
+
+.top-div h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.top-div-company-name{
+    font-size: 140px;
+    font-family: "Oxygen", sans-serif;
+}
+
+.about-div{
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+
+.about-div h1{
+    font-size: 50px;
+}
+
+.about-div h3{
+    line-height : 1.8em;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.about-div h4{
+    line-height : 1.8em;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.services-div h1{
+    line-height : 1.8em;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.services-div-text-div{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    background-color: #007FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-div-img-div{
+    background: url("./servicesimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+}
+
+.services-div h3{
+    color: #FFFFFF;
+    font-family: "Baloo 2", sans-serif;
+}
+
+.clients-div h1{
+    font-size: 50px;
+}
+
+.clients-div{
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+
+.contact-div{
+    background: url("./contactbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    margin: 0px;
+}
+
+.contact-div h1{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+/*navbar*/
+.navbar{
+    margin-bottom: 0px;
+    
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    /*margin-left: -45px;*/
+}
+
+nav.navbar.navbar-default {
+    background-color: #000000;
+    border: 0px solid #E98980;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+
+.navbar-default .navbar-brand:hover{
+   color: #E98980;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+   background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a:hover{
+    color: #E98980;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a{
+    color: #E98980;
+}
+
+.navbar-nav .open .dropdown-menu li a{
+    color: #E98980;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu li a{
+        color: #FFFFFF;
+    }
+
+    .navbar-nav .open .dropdown-menu li a:focus{
+        color: #FFFFFF;
+    }
+}
+/*navbar*/
